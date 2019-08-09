@@ -1,2 +1,2 @@
 # Weight-count-5-45
- сcalculate weight
+ сalculate weight
