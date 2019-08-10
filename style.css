@@ -4,7 +4,7 @@
 body {
     background: linear-gradient(#1963d3,#41f098);
     background-repeat: no-repeat;
-    height: 960px;
+    height: 100%;
     text-align: center;
 }
 .header {
