@@ -1,21 +1,13 @@
-/*let resultWeight = +prompt("Введите вес брутто с учетом погрешности в килограммах");
-document.write("<br/>" + "<br/>" + "Введенный общий вес (брутто): " + resultWeight + "кг.");
-let itemsSum = +prompt("Введите общее количество связок");
-document.write("<br/>" + "<br/>" + "Общее кол-во связок: " + itemsSum + " шт.");
-let liftSum = +prompt("Введите количество связок в одном подъеме"); */
-
 
 function calculate() {
 
     let resultWeight = document.getElementById("weight").value;
     let itemsSum = document.getElementById("totalUnits").value;
     let liftSum = document.getElementById("lift").value; 
+    let crainWeight = document.getElementById("crain").value; 
+    let survNumber1 =  document.getElementById("survei1").value; 
+    let survNumber2 =  document.getElementById("survei2").value; 
     
-    
-    //вывод данных
-    
-    /*document.getElementsByClassName("header").innerHTML = ("<br/>" + "<br/>" + "Введенный общий вес (брутто): " + resultWeight + "кг.");
-    document.getElementsByClassName("header").innerHTML = ("<br/>" + "<br/>" + "Общее кол-во связок: " + itemsSum + " шт."); */
     
     document.write("<br/>" + "<br/>" + "Введенный общий вес (брутто): " + resultWeight + "кг.");
     document.write("<br/>" + "<br/>" + "Общее кол-во связок: " + itemsSum + " шт.");
