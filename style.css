@@ -17,7 +17,6 @@ body {
 .text {
     color: #d0e0fd;
     font-style: italic; 
-    border-radius: 7px;
 }
 .article  {
     width:300px;
@@ -29,6 +28,7 @@ body {
 }  
 .expl {
     background: #fff;
+    border-radius: 7px;
 }
 
 .container {
