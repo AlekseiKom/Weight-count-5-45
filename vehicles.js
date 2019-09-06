@@ -1,4 +1,6 @@
 
+
+
 function calculate() {
 
   let resultWeight = document.getElementById("weight").value;
