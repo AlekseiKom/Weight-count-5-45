@@ -21,6 +21,9 @@ body {
             inset 0 0 40px rgba(0, 0, 0, .1);
 
 }
+h1 {
+    padding: 8px;
+}
 .text {
     color: #d0e0fd;
     font-style: italic; 
